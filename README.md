@@ -12,8 +12,7 @@ Once the container has spun up, cron should start printing a message every 60 se
 
 ```
 $ docker-compose up
-whenever-example-app is up-to-date
-Attaching to whenever-example-app
+...
 whenever-example-app    | The Gemfile's dependencies are satisfied
 whenever-example-app    | [write] crontab file updated
 whenever-example-app    | The time now is 2020-03-31 21:18:01 +0000!
