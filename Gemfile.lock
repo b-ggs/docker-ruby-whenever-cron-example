@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    chronic (0.10.2)
+    rake (13.0.1)
+    whenever (1.0.0)
+      chronic (>= 0.6.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake
+  whenever
+
+BUNDLED WITH
+   1.17.2

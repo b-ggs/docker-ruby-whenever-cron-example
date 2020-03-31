@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  whenever-example-app:
+    build: .
+    container_name: whenever-example-app
+    volumes:
+      - .:/opt/whenever_example_app
+      - whenever-example-app-bundle-data:/usr/local/bundle
+    stdin_open: true
+    tty: true
+volumes:
+  whenever-example-app-bundle-data:
+    name: whenever-example-app-bundle-data
